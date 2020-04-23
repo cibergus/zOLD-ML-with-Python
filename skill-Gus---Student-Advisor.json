@@ -1,0 +1,1393 @@
+{
+  "intents": [
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "Enrollment_Cost",
+      "examples": [
+        {
+          "text": "How much is a Coursera subscription?"
+        },
+        {
+          "text": "How much do your courses cost?"
+        },
+        {
+          "text": "Do I have to pay for every course in a specialization?"
+        },
+        {
+          "text": "Can I audit your courses for free?"
+        },
+        {
+          "text": "Are you courses free?"
+        }
+      ],
+      "description": "Coursera"
+    },
+    {
+      "intent": "Course_Recommendation",
+      "examples": [
+        {
+          "text": "I want to learn Python"
+        },
+        {
+          "text": "which data science course should I take"
+        },
+        {
+          "text": "Do you have any courses on genetics?"
+        },
+        {
+          "text": "What's the best course on Machine Learning?"
+        },
+        {
+          "text": "What courses do you recommend?"
+        },
+        {
+          "text": "Recommend me a course on nutrition"
+        },
+        {
+          "text": "Recommend me a course on databases"
+        }
+      ],
+      "description": "Coursera"
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Professional_Certificate_Recommendation",
+      "examples": [
+        {
+          "text": "Which computer science certificate?"
+        },
+        {
+          "text": "Which data science certificate do you recommend?"
+        },
+        {
+          "text": "Which data science certificate?"
+        },
+        {
+          "text": "Can you recommend a professional certificate to me?"
+        },
+        {
+          "text": "do you offer a deep learning certificate?"
+        }
+      ],
+      "description": "Coursera"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Going now"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you have humor?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "g-account_set_up",
+      "examples": [
+        {
+          "text": "I need to set up"
+        },
+        {
+          "text": "trying help"
+        },
+        {
+          "text": "Trying to fill my data"
+        },
+        {
+          "text": "How to login"
+        }
+      ],
+      "description": "Test-AI"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "g-learning_program",
+      "examples": [
+        {
+          "text": "What learning programs do you have?"
+        },
+        {
+          "text": "Types of programs?"
+        },
+        {
+          "text": "Whats courses do you have?"
+        }
+      ],
+      "description": "Tets-AI"
+    },
+    {
+      "intent": "g-payment_options",
+      "examples": [
+        {
+          "text": "credit card"
+        },
+        {
+          "text": "debit card"
+        },
+        {
+          "text": "paypal"
+        },
+        {
+          "text": "cash"
+        }
+      ],
+      "description": "Test-AI"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "How can I configure you?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "professionalcertificate",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "customer engagement",
+          "synonyms": [
+            "customer care",
+            "customer support"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "data science",
+          "synonyms": [
+            "ibm",
+            "data anlytics",
+            "data engineering"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "entrepreneurship",
+          "synonyms": [
+            "innovation management",
+            "entrepreneur",
+            "business development",
+            "mba"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "project management",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "IT support",
+          "synonyms": [
+            "technical support"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.cloud.ibm.com/api/v1/namespaces/augustojavier%40es.ibm.com_lab4/actions/lab4/connectDiscovery?blocking=true",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Basic MGFiMGY1Y2YtZjEwZi00ZTNhLTg3M2ItMWY5ZWExMjVkNDkzOk52eUVvY0daY1BEb200dVllVmIyNDB1dGpUcnNjYTdSbWx3UG82YWtNc3YzNFhlcnF0TWY0UzZ1SHlhak1FOWY="
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Discovery",
+      "parent": "node_5_1587124619490",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1587130805462",
+      "previous_sibling": "response_1_1587130948336"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_5_1587124619490",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1587130948336"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1587636665587",
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_10_1587637819113",
+      "previous_sibling": "node_10_1587638288810"
+    },
+    {
+      "type": "standard",
+      "title": "Responses",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $webhook_result_2.response.result.res ?> \n<br>\nLearn more at: <a href='https://learner.coursera.help/hc/en-us/categories/201216173' target=\"_blank\"> https://learner.coursera.help/hc/en-us/categories/201216173</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1587636665587",
+      "dialog_node": "node_10_1587638288810"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Here are some courses I found for you! </br>  <a href='<? $webhook_result_1.response.result.courses.get(0).link ?>' target=\"_blank\"><? $webhook_result_1.response.result.courses.get(0).name ?></a> <? $webhook_result_1.response.result.courses.get(0).description ?> </br> <a href='<? $webhook_result_1.response.result.courses.get(1).link ?>' target=\"_blank\"><? $webhook_result_1.response.result.courses.get(1).name ?></a> <? $webhook_result_1.response.result.courses.get(1).description ?>  </br> <a href='<? $webhook_result_1.response.result.courses.get(2).link ?>' target=\"_blank\"><? $webhook_result_1.response.result.courses.get(2).name ?></a> <? $webhook_result_1.response.result.courses.get(2).description ?> "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1587130805462",
+      "dialog_node": "response_2_1587131757248"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We recommend the IBM Data Science professional certificate."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1587124427302",
+      "conditions": "@professionalcertificate:(data science)",
+      "dialog_node": "response_8_1587124552230",
+      "previous_sibling": "response_8_1587124543279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We recommend Google's IT Support certificate."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1587124427302",
+      "conditions": "@professionalcertificate:(IT support)",
+      "dialog_node": "response_4_1587124514854",
+      "previous_sibling": "response_2_1587124495207"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1587124427302",
+      "conditions": "@professionalcertificate:entrepreneurship",
+      "dialog_node": "response_9_1587124565569",
+      "previous_sibling": "response_8_1587124552230"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We recommend the IBM Customer Engagement Specialist professional certificate."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1587124427302",
+      "conditions": "@professionalcertificate:(customer engagement)",
+      "dialog_node": "response_8_1587124543279",
+      "previous_sibling": "response_4_1587124514854"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You can see a list of our professional certificates on <a href=\"https://www.coursera.org/professional-certificate\">our site</a>."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1587124427302",
+      "conditions": "true",
+      "dialog_node": "response_10_1587124576594",
+      "previous_sibling": "response_9_1587124565569"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We recommend our Applied Project Management Certificate by University of California Irvine."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1587124427302",
+      "conditions": "@professionalcertificate:(project management)",
+      "dialog_node": "response_2_1587124495207"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbyes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bye bye bye"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1587123869566",
+      "conditions": "#General_Ending",
+      "dialog_node": "node_6_1587124171818",
+      "previous_sibling": "node_10_1587124112485"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Than you very much"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1587123869566",
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_10_1587124112485",
+      "previous_sibling": "node_2_1587123939494"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "General_Greetings"
+              },
+              {
+                "text": "Hi there"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1587123869566",
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_2_1587123939494"
+    },
+    {
+      "type": "standard",
+      "title": "Help Centre",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input.text?>",
+            "intent": "faq",
+            "collectionId": "8919c4ac-9399-45f2-8a0d-1912076714c2"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Anything else"
+      },
+      "conditions": "#g-account_set_up || #g-payment_options || #g-learning_program",
+      "dialog_node": "node_1_1587636665587",
+      "previous_sibling": "node_5_1587124619490"
+    },
+    {
+      "type": "folder",
+      "title": "Chitchat",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1587123869566",
+      "previous_sibling": "node_1_1587636665587"
+    },
+    {
+      "type": "standard",
+      "title": "Professional Certificate",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Professional_Certificate_Recommendation",
+      "dialog_node": "node_9_1587124427302",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Enrollment Cost",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can audit our courses for free, but in order to access graded assignments and a Course Certificate you'll need to pay. The cost varies from course to course. If you are aiming for a professional certificate, then you'll need to complete and pay for each course within that specialization."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Enrollment_Cost",
+      "dialog_node": "node_8_1587124270941",
+      "previous_sibling": "node_9_1587124427302"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1587123869566",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Courses",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1587130805462"
+      },
+      "conditions": "#Course_Recommendation",
+      "dialog_node": "node_5_1587124619490",
+      "previous_sibling": "node_8_1587124270941"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              },
+              {
+                "text": "Hello. I'm a Student Advisor Chatbot. I can help you with your questions about our site and give you course recommendations."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Gus - Student Advisor",
+  "language": "en",
+  "description": ""
+}
